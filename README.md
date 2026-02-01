@@ -65,9 +65,7 @@ Using the power budget equation and the parameters below, determine the attenuat
      - BER  
      - Q factor  
      - Eye diagram  
-
 2. Set the fiber length to **125% of the calculated pre-lab value** and repeat the simulation and data recording.  
-
 ---
 ## Tabulation for 2.5GB and 10 GB
 ![WhatsApp Image 2026-02-01 at 11 04 12](https://github.com/user-attachments/assets/a3f3ffa3-b9db-49ae-b446-a37464665783)
