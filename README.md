@@ -6,7 +6,6 @@
 - Simulate the resulting system and verify that it meets performance objectives.
 
 ---
-
 ## Theory
 The **power budget equation** states that the power budget in a transmission system must equal the sum of all power losses plus the power margin.  
 
@@ -32,7 +31,6 @@ The **receiver sensitivity** is defined as the minimum power required to achieve
 - Fiber attenuation depends on the operating wavelength.  
 
 ---
-
 ## Pre-lab Calculations
 Using the power budget equation and the parameters below, determine the attenuation-limited fiber length:
 
@@ -47,7 +45,6 @@ Using the power budget equation and the parameters below, determine the attenuat
 - **Power margin:** 6 dB  
 
 ---
-
 ## Layout
 - The system has been created using **OptiSystem** and exported as an **OptiPerformer** file.  
 - Two versions exist: one for **2.5 Gb/s** and one for **10 Gb/s**.  
@@ -59,7 +56,6 @@ Using the power budget equation and the parameters below, determine the attenuat
 - Visualizer components are included to obtain necessary simulation data.  
 
 ---
-
 ## Simulation
 1. Run the simulation and record:
    - **Optical power levels (dBm):**
@@ -73,9 +69,28 @@ Using the power budget equation and the parameters below, determine the attenuat
 2. Set the fiber length to **125% of the calculated pre-lab value** and repeat the simulation and data recording.  
 
 ---
+## Tabulation for 2.5GB and 10 GB
+![WhatsApp Image 2026-02-01 at 11 04 12](https://github.com/user-attachments/assets/a3f3ffa3-b9db-49ae-b446-a37464665783)
+
+## High Noise for 2.5 GB
+<img width="1920" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/9dc191e5-c286-46dd-82a8-fb3b151629dc" />
+
+## Low Noise for 2.5 GB
+<img width="1920" height="1080" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/47c8ddb6-b83f-4eb9-a4c4-880cf6ab40ff" />
+
+## High Noise for 10 GB
+<img width="1920" height="1080" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/ff0feead-dd0b-4208-b152-ee5a658727b7" />
+
+## Low Noise for 10 GB
+<img width="1920" height="1080" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/472545bd-2f3d-4925-96e7-aa8b25b80b0c" />
 
 ## Analysis and Report
 Compare simulation results with pre-lab calculations and record observations.  
+## Description
+ Attenuation measurement at 2.5 Gbps and 10 Gbps evaluates the optical power loss in a fiber due to absorption, scattering, and connection losses. This measured attenuation determines the attenuation-limited fiber length, which is the maximum distance the signal can travel while still maintaining sufficient power at the receiver for reliable communication.
+
+## Result :
+Thus the attenuation-limited fiber length based on the power budget equation is successfully simulated and verified.
 
 Your report should contain:
 - **Cover Page**
